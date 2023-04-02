@@ -17,16 +17,11 @@ export default function Homepage() {
   }
 
   return (
-    <div className="homepage" style={{backgroundImage: `url(${background})`, backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    height: '800px'}}>
-      <Navbar expand="lg" fixed="top">
+    <div className="homepage">
+      <Navbar className='nav-welcome' expand="lg" fixed="top">
         <Container fluid>
-          <Navbar.Brand className= "navbar-brand"href="#home"><img
+          <Navbar.Brand className= "navbar-brand"><img
               src={logo}
-              width="270"
-              height="60"
-              className="d-inline-block align-top"
             /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

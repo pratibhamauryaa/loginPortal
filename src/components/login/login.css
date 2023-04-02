@@ -2,17 +2,84 @@
     font-size: 19px;
 } */
 .login-popup{
-    display: flex;
-}
-.user-login{
-    margin-top: 10%;
+  justify-content: center;
+  align-items: center;
+
 
 }
-.login-icon{
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80px;
+
+
+.modal-dialog{
+  --bs-modal-width:35%
 }
+
+
+.user-login{
+    margin-top: 4%;
+}
+.modal-header{
+  border-bottom: 0px;
+  justify-content: center;
+  text-align: center;
+  --bs-modal-header-border-width:0px;
+  
+}
+.modal-header h3{
+  font-weight: bold;
+}
+.user-circle{
+  height: 120px;
+  width: 200px;
+  border-radius: 130px;
+  color: #f47f07;
+ 
+}
+
+.modal-content{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 4px 4px 4px 4px rgb(155, 155, 155);
+  --bs-modal-border-radius: 30px;
+}
+.login-inp input{
+  font-weight: 600;
+  border-radius: 20px;
+
+}
+.login-inp input:focus{
+ box-shadow: #fcaa58;
+
+}
+.login-inp .form-label{
+  font-size: 12px;
+  margin: 10px;
+  font-weight: bolder;
+}
+.login-inp{
+  width: 108%;  
+}
+
+.modal{
+  align-items: center;
+}
+.modal-footer .button-container{
+  display: flex;
+justify-content: flex-end;
+padding-bottom: 10%;
+--bs-modal-footer-border-width:0px;
+}
+.button-container button{
+  width: 100px;
+  border-radius: 30px;
+  height: 40px;
+  margin: 10px;
+}
+.modal-footer {
+--bs-modal-footer-border-width:0px;
+}
+.modal-body{
+  width: 80%;
+}
+
+

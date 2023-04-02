@@ -80,16 +80,6 @@ const columns = [
     dataIndex: 'industry',
     key: 'industry',
   },
-  {
-    title: 'Industry',
-    dataIndex: 'industry',
-    key: 'industry',
-  },
-  {
-    title: 'Industry',
-    dataIndex: 'industry',
-    key: 'industry',
-  },
 
 ];
 
