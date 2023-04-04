@@ -39,7 +39,7 @@ export default function Login() {
       .post("http://localhost:9002/login", user)
       .then((res) => {
         alert(res.data.message);
-        console.log(res.data.status);
+        console.log(res);
         //setLoginUser(res.data.user)
         //history.push("/")
         if (res.data.status == "success") {

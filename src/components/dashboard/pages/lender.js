@@ -42,16 +42,16 @@ const columns = [
     dataIndex: 'tad',
     key: 'tad',
   },
-  {
-    title: 'Total Amount Collected',
-    dataIndex: 'tac',
-    key: 'tac',
-  },
-  {
-    title: 'Status',
-    dataIndex: 'status',
-    key: 'status',
-  },
+  // {
+  //   title: 'Total Amount Collected',
+  //   dataIndex: 'tac',
+  //   key: 'tac',
+  // },
+  // {
+  //   title: 'Status',
+  //   dataIndex: 'status',
+  //   key: 'status',
+  // },
 
 
 ];
@@ -125,7 +125,7 @@ export default function Lender() {
 
   return (
     <div>
-      <Table columns={columns} style={{display:"flex"}}  dataSource={data} />
+      <Table columns={columns}  dataSource={data} />
     </div>
   );
 }

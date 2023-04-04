@@ -11,11 +11,12 @@ export default function Dashboard() {
     
     return (
         <div className="dashboard-container">
-            <Header />
-            <Space>
+           
+            {/* <Space> */}
             <Sidemenu />
-            <Pagecontent />
-            </Space>
+            {/* <Header /> */}
+            {/* <Pagecontent /> */}
+            {/* </Space> */}
             
         </div>
        
